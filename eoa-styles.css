@@ -9,7 +9,6 @@ body {
 	background-color: #444630;
 }
 .site-wrapper {
-	padding-top: 100px;
 	padding-bottom: 50px;
 	max-width: 800px;
 }
@@ -18,7 +17,6 @@ body {
 }
 @media (max-width: 768px) {
 	.site-wrapper {
-		padding-top: 0px;
     	padding-bottom: 90px;
 	}
 	.profile-img {
@@ -82,7 +80,7 @@ a:hover {
     padding-bottom: 10px;
     font-size: 0.8rem;
     color: #fff;
-    background-color: #00000073;
+    background: rgba(255, 255, 255, 0.7); 
 }
 dl, ol, ul {
     margin-left: -20px;
