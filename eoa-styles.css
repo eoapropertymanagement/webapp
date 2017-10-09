@@ -13,10 +13,30 @@ body {
 	padding-bottom: 50px;
 	max-width: 800px;
 }
+.profile-img {
+	max-width: 175px;
+}
 @media (max-width: 768px) {
 	.site-wrapper {
-		padding-top: 25px;
-		padding-bottom: 100px;
+		padding-top: 0px;
+    	padding-bottom: 90px;
+	}
+	.profile-img {
+		max-width: 150px;
+	}
+}
+@media (max-width: 480px) {
+	.desktop {
+		display: none;
+	}
+	.mobile {
+		display: block;
+		margin-top: 20px;
+	}
+}
+@media (min-width: 481px) {
+	.mobile {
+		display: none;
 	}
 }
 .site-cards {
@@ -44,9 +64,6 @@ a:hover {
 .btn-primary:hover {
 	background-color: #31bdc6;
 	border-color: #31bdc6;
-}
-.profile-img {
-	max-width: 200px;
 }
 .card-title {
 	color: #16bbe4;
